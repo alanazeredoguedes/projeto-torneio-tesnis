@@ -1,3 +1,0 @@
-module Torneio {
-	requires junit;
-}
