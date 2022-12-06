@@ -13,7 +13,7 @@ public class TorneioTest {
 	@Test
 	public void testVitoria() {
 		char[] Partidas = {'V','V','P','P','P','V'};
-		assertEquals(2, torneioTenis.Torneio(Partidas),0);
+		assertEquals(1, torneioTenis.Torneio(Partidas),0);
 	}
 	@Test
 	public void testDerrota() {
